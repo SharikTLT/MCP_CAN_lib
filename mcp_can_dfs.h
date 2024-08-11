@@ -295,9 +295,9 @@
 #define MCP_8MHz_31k25BPS_CFG2 (0xE5)  /* Enabled SAM bit     */
 #define MCP_8MHz_31k25BPS_CFG3 (0x83)  /* Sample point at 75% */
 
-#define MCP_8MHz_20kBPS_CFG1 (0x89)    /* Increased SJW       */
-#define MCP_8MHz_20kBPS_CFG2 (0xF6)    /* Enabled SAM bit     */
-#define MCP_8MHz_20kBPS_CFG3 (0x84)    /* Sample point at 75% */
+#define MCP_8MHz_20kBPS_CFG1 (0x01)    /* Increased SJW     (0x89)  */
+#define MCP_8MHz_20kBPS_CFG2 (0xBE)    /* Enabled SAM bit   (0xF6)   */
+#define MCP_8MHz_20kBPS_CFG3 (0x07)    /* Sample point at 75%  (0x84) */
 
 #define MCP_8MHz_10kBPS_CFG1 (0x93)    /* Increased SJW       */
 #define MCP_8MHz_10kBPS_CFG2 (0xF6)    /* Enabled SAM bit     */
@@ -350,9 +350,9 @@
 #define MCP_16MHz_33k3BPS_CFG2 (0xE5)
 #define MCP_16MHz_33k3BPS_CFG3 (0x83)     /* Sample point at 75% */
 
-#define MCP_16MHz_20kBPS_CFG1 (0x53)      /* Increased SJW       */
-#define MCP_16MHz_20kBPS_CFG2 (0xF6)
-#define MCP_16MHz_20kBPS_CFG3 (0x84)      /* Sample point at 75% */
+#define MCP_16MHz_20kBPS_CFG1 (0x03)      /* Increased SJW     0x53  */
+#define MCP_16MHz_20kBPS_CFG2 (0xBE)  /* 0xF6 */
+#define MCP_16MHz_20kBPS_CFG3 (0x07)      /* Sample point at 75% 0x84 */
 
 #define MCP_16MHz_10kBPS_CFG1 (0x67)      /* Increased SJW       */
 #define MCP_16MHz_10kBPS_CFG2 (0xF6)
